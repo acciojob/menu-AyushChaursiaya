@@ -1,0 +1,77 @@
+menu {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.menu_list {
+  color: #c49c5e;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.title_part {
+  text-align: center;
+}
+
+.title_part hr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  border: 2px solid #c49c5e;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* card layout */
+.card_items {
+  display: flex;
+  gap: 1rem;
+}
+
+.items_img img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #c49c5e;
+  border-radius: 4px;
+}
+
+
+
+.item_header {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item_header h5 {
+  margin: 0;
+  color: #242222;
+  font-size: 1.2rem;
+}
+
+
+.item_header p {
+  margin: 0;
+  color: #c49c5e !important;
+  font-size: 1.2rem;
+}
+
+.item_info hr {
+  margin: 0;
+  border: 1px dotted #444242c0;
+}
+
+.item_info p {
+  color: #6a83a6;
+}
